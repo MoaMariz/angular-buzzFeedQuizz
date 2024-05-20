@@ -58,10 +58,25 @@
     }
   ],
   "results":{
-    "A": "You match with a Labrador! Adventurous and energetic.",
-    "B": "You match with a Bulldog! Calm and relaxed.",
-    "C": "You match with a Border Collie! Full of energy and sporty.",
-    "D": "You match with a Golden Retriever! Sociable and friendly.",
-    "E": "You match with a Poodle! Intelligent and refined."
+    "A": {
+      "text": "You match with a Labrador! Adventurous and energetic.",
+      "image": "/assets/imgs/A.jpg"
+    },
+    "B": {
+      "text": "You match with a Bulldog! Calm and relaxed.",
+      "image": "/assets/imgs/B.jpg"
+    },
+    "C": {
+      "text": "You match with a Border Collie! Full of energy and sporty.",
+      "image": "/assets/imgs/C.jpg"
+    },
+    "D": {
+      "text": "You match with a Golden Retriever! Sociable and friendly.",
+      "image": "/assets/imgs/D.jpg"
+    },
+    "E": {
+      "text": "You match with a Poodle! Intelligent and refined.",
+      "image": "/assets/imgs/E.jpg"
+    }
   }
 }

@@ -20,7 +20,10 @@
   
     <div *ngIf="finished" class="quizz__results">
       <h1>Your result is...</h1>
-      <p>{{answerSelect}}</p>
-      <button class="btn-return">Do it Again!</button>
+      <div class="quizz__results2">
+        <p>{{answerSelect.text}}</p>
+        <img [src]="answerSelect.image" alt="Result Image">
+      </div>
+      <button class="btn-return" (click)="restartQuizz()">Do it Again!</button>
     </div>
   </div>

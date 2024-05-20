@@ -17,7 +17,7 @@ export class QuizzComponent implements OnInit {
   questionSelected: any
 
   answers: string[] = []
-  answerSelect: string = ""
+  answerSelect: any = {}
 
   questionIndex: number = 0
   questionMaxIndex: number = 0
@@ -72,5 +72,12 @@ export class QuizzComponent implements OnInit {
         }
     })
     return result 
-  }  
+  } 
+   
+  restartQuizz() {
+    this.finished = false
+    this.answers = []
+    this.questionIndex = 0
+    this.questionSelected = this.questions[this.questionIndex]
+  }
 }
