@@ -1,0 +1,67 @@
+{
+  "title":"What Kind of Dog Matches Your Personality?",
+  "questions":[
+    {
+      "id":1,
+      "question": "What do you like to do in your free time?",
+      "options":[
+        {"id": 1, "name":"Explore new places", "alias":"A"},
+        {"id": 2, "name":"Relax at home", "alias":"B"},
+        {"id": 3, "name":"Play sports", "alias":"C"},
+        {"id": 4, "name":"Spend time with friends", "alias":"D"},
+        {"id": 5, "name":"Read a good book", "alias":"E"}
+      ]
+    },
+    {
+      "id":2,
+      "question": "Which of these words best describes you?",
+      "options":[
+        {"id": 1, "name":"Adventurous", "alias":"A"},
+        {"id": 2, "name":"Calm", "alias":"B"},
+        {"id": 3, "name":"Energetic", "alias":"C"},
+        {"id": 4, "name":"Sociable", "alias":"D"},
+        {"id": 5, "name":"Intelligent", "alias":"E"}
+      ]
+    },
+    {
+      "id":3,
+      "question": "What is your favorite food?",
+      "options":[
+        {"id": 1, "name":"Sushi", "alias":"A"},
+        {"id": 2, "name":"Pizza", "alias":"B"},
+        {"id": 3, "name":"Salad", "alias":"C"},
+        {"id": 4, "name":"BBQ", "alias":"D"},
+        {"id": 5, "name":"Pasta", "alias":"E"}
+      ]
+    },
+    {
+      "id":4,
+      "question": "What is your favorite movie?",
+      "options":[
+        {"id": 1, "name":"Indiana Jones", "alias":"A"},
+        {"id": 2, "name":"The Big Lebowski", "alias":"B"},
+        {"id": 3, "name":"Rocky", "alias":"C"},
+        {"id": 4, "name":"The Breakfast Club", "alias":"D"},
+        {"id": 5, "name":"Sherlock Holmes", "alias":"E"}
+      ]
+    },
+    {
+      "id":5,
+      "question": "What is your favorite physical activity?",
+      "options":[
+        {"id": 1, "name":"Hiking", "alias":"A"},
+        {"id": 2, "name":"Yoga", "alias":"B"},
+        {"id": 3, "name":"Running", "alias":"C"},
+        {"id": 4, "name":"Dancing", "alias":"D"},
+        {"id": 5, "name":"Chess", "alias":"E"}
+      ]
+    }
+  ],
+  "results":{
+    "A": "You match with a Labrador! Adventurous and energetic.",
+    "B": "You match with a Bulldog! Calm and relaxed.",
+    "C": "You match with a Border Collie! Full of energy and sporty.",
+    "D": "You match with a Golden Retriever! Sociable and friendly.",
+    "E": "You match with a Poodle! Intelligent and refined."
+  }
+}
